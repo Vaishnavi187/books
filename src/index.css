@@ -2,7 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-/* body{
-    background-color: white;
-    color: black;
-} */
+/* Default Light Theme */
+:root {
+   --bg-color: white;
+   --text-color: black;
+ }
+ 
+ /* Dark Mode */
+ .dark {
+   --bg-color: rgba(59, 45, 45, 0.611);
+   --text-color: white;
+ }
+ body {
+   min-height: 100vh;
+   background-color: var(--bg-color);
+   color: var(--text-color);
+   transition: background-color 0.3s, color 0.3s;
+ }
+
+  

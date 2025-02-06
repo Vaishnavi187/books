@@ -23,7 +23,6 @@ const Book = () => {
  getbook()
   },[])
   
-   
 
     var settings = {
       dots: true,
@@ -62,7 +61,7 @@ const Book = () => {
     
   return (
     <>
-    <div className='max-w-screen-2xl container mx-auto md:px-20 px-4  '  >
+    <div className='max-w-screen-2xl container mx-auto md:px-20 px-4 '  >
        <div>
        <h2 className='font-bold text-xl pb-2'>Free Offered Courses</h2>
        <p className='text-lg italic'><span>"Discover a variety of free courses designed to inspire learning and creativity.</span>From storytelling to non-fiction,start your journey today at no cost!"</p>
