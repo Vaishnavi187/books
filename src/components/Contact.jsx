@@ -21,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
     console.log(formData);
     try {
-      const res = await axios.post("http://localhost:4000/cont/get", formData);
+      const res = await axios.post("https://backend-ybu6.onrender.com/cont/get", formData);
       if (res.data) {
         toast.success("Message sent  successfully");
       }
