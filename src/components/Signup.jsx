@@ -25,7 +25,7 @@ const Signup = () => {
 
     try {
       const res = await axios.post(
-        "http://localhost:4000/user/signup",
+        "https://backend-ybu6.onrender.com/user/signup",
         formData
       );
       if (res.data) {
