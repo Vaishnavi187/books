@@ -22,7 +22,7 @@ const Login = () => {
     console.log(formData);
     try {
       const res = await axios.post(
-        "http://localhost:4000/user/login",
+        "https://backend-ybu6.onrender.com/user/login",
         formData
       );
       if (res.data) {
